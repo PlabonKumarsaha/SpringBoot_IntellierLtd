@@ -23,7 +23,7 @@ public class CalculatorTest {
 
 	Calculator calculator;
 	
-	
+	@BeforeEach
 	public  void init() {
 		calculator = new Calculator();
 	}
