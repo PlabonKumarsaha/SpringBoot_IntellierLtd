@@ -12,6 +12,7 @@ public class MainTestClass {
 		// TODO Auto-generated method stub
 
 		Result result = JUnitCore.runClasses(Assert.class);
+		//loops through the failed test cases to show the error
 		for(Failure failure : result.getFailures()) {
 			
 			System.out.println(failure.toString());
